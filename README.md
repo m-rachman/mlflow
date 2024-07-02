@@ -58,5 +58,5 @@ mlflow ui
 `mlflow run . --experiment-name Loan_prediction`  # run from folder where `MLProject` file is present
 
 - Run from git repository
-`mlflow run https://github.com/manifoldailearning/ml-flow-project --experiment-name Loan_prediction` 
+`mlflow run https://github.com/m-rachman/mlflow.git --experiment-name Loan_prediction` 
 
