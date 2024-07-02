@@ -51,3 +51,12 @@ mlflow ui
 - Kill them
 `kill -15 <PID>`
 
+
+# MLFlow Projects
+
+- Create Run using MLFlow project file
+`mlflow run . --experiment-name Loan_prediction`  # run from folder where `MLProject` file is present
+
+- Run from git repository
+`mlflow run https://github.com/manifoldailearning/ml-flow-project --experiment-name Loan_prediction` 
+
