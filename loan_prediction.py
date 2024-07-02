@@ -14,7 +14,7 @@ from sklearn.impute import SimpleImputer
 
 RANDOM_SEED =  42
 # Load the dataset
-file_path = '/Users/mohammadrachman/Documents/MLFlow-Manage-ML-Experiments/train.csv'  # Replace with the correct file path
+file_path = 'train.csv'  # Replace with the correct file path
 data = pd.read_csv(file_path)
 
 # Drop 'Loan_ID' column as it's not needed for the prediction
